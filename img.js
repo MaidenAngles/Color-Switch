@@ -1,6 +1,6 @@
-const Img = ["url(dog1.jpg)", ];
+const Img = ["url(burger.jpg)", "url(chicken.jpg)", "url(pizza.jpg)"];
 const btn = document.getElementById("btn");
-const Imgs = document.querySelector(".Img");
+const Imgs = document.querySelector(".color");
 
 btn.addEventListener("click", function () {
   const randomImg = getRandomNumber();
@@ -8,7 +8,7 @@ btn.addEventListener("click", function () {
 
  
   document.body.style.backgroundImage = Img[randomImg];
-  color.textContent = Img[randomImg];
+  Imgs.textContent = Img[randomImg];
 });
 
 function getRandomNumber() {
