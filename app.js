@@ -1,3 +1,4 @@
+//changed values in array
 const colors = ["green", "red", "white",];
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
